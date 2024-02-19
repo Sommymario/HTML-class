@@ -1,0 +1,63 @@
+*{
+ margin: 0;  
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+body{
+    background-color: rgb(214, 211, 211);
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 60px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+}
+.img-holder{
+    width: 99%;
+    height: 55%;
+    background-color: red;
+    border-radius: 15px;
+    background-image: url(https://media.gettyimages.com/id/523736265/photo/old-man-and-the-sea-in-a-skiff.jpg?s=612x612&w=0&k=20&c=wECcjJLpyrxxnCcSw4_vZRKnAqxnRLzfBEOLYsNRbrw=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.note{
+    width: 100%;
+    height: 5%;
+
+    margin-top: 20px;
+}
+.note > button{
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    border: 1px solid rgb(234, 233, 233);
+    border-radius: 10px;
+}
+.text > p{
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+
+}
+.text > p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.read{
+    width: 35%;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgba(70, 108, 220, 0.579);
+    border: none;
+    border-radius: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+

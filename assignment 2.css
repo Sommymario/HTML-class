@@ -1,0 +1,52 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+   background-color: rgb(64, 15, 64);
+}
+
+.card-container{
+   width: 30%;
+   height: 550px;
+   margin-top: 100px;
+   margin-left: 450px;
+   background-color: rgb(40, 10, 40);
+   border-radius: 10px;
+   padding: 10px 0px;
+    
+}
+.pro{
+   width: 15%;
+   height: 5%;
+   border: none;
+   font-weight: bold;
+   background-color: yellow;
+   border-radius: 3px;
+   margin left: 30px;
+   
+}
+.round{
+   width: 30%;
+   height: 30%;
+   background-color: red;
+   border-radius: 100%;
+   border: 3px solid lightblue;
+}
+.h3{
+   width: 100%;
+   height: 26%;
+   text-align: center;
+   color: white;
+   font-size: large;
+   font-weight: bold;
+}
+.h6{
+
+}
+.primary{
+   
+}

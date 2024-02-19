@@ -1,0 +1,81 @@
+.*{
+ margin: 0;  
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(61, 1, 61);
+}
+.card{
+    width: 30%;
+    height: 550px;
+    margin-left: 550px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.button{
+    background-color: yellow;
+    width: 15%;
+    height: 5%;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+.img-wrp{
+    width: 100%;
+    height: 26%;
+}
+center > img{
+    width: 30%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+    border: 3px solid lightblue;
+}
+.text-wrp{
+    width: 100%;
+    height: 26%;
+    text-align: center;
+    color: white;
+}
+.text-wrp > h2{
+    font-size: 30px;
+}
+.text-wrp > p{
+    margin-top: 10px;
+}
+.first{
+    font-size: 20px;
+}
+.second{
+    font-size: 21px;
+}
+.btn-wrp{
+    width: 100%;
+    height: 10%;
+}
+.msg{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.flw{
+    width: 30%;
+    height: 40px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 2px solid rgb(9, 245, 237);
+    color: rgb(9, 245, 237);
+    cursor: pointer;
+}
+.skil-wrp{
+    width: 100%;
+    height: 25%;
+    
+}
